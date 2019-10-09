@@ -1,0 +1,27 @@
+.title {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: firebrick;
+    font-size: 50px;
+}
+.text{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.date {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.clear{
+    clear: both;
+}
