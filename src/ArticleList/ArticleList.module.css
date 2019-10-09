@@ -13,6 +13,7 @@
     outline-style: dashed;
     outline-color: rgb(54, 54, 54);
     outline-width: 2px;
+    list-style: none;
   }
 
 .whiteBackground{
