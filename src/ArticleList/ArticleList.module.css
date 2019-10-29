@@ -9,10 +9,15 @@
     margin-bottom: 30px;
     margin-left: 20px;
 
+    list-style: none;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
     background-color: rgb(163, 163, 163);
     border:2px dashed;
     border-color: rgb(85, 85, 85);
-    list-style: none;
     border-radius: 50px;
   }
 
@@ -21,6 +26,9 @@
     margin-right: 10px;
     margin-bottom: 50px;
     margin-left: 10px;
+
+    width: 420px;
+    height: 840px;
 
     box-shadow: 0px 10px 30px 5px rgb(63, 63, 63);
 
@@ -31,3 +39,7 @@
     border-color: firebrick;
     border-radius: 50px;
 }
+
+/* .flex-container{
+  
+} */

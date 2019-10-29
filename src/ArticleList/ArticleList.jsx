@@ -10,7 +10,7 @@ const ArticleList = props => {
     <div>
       <ul className={styles.grayBackground}>
         {props.articles.map(article => (
-          <li key={props.slug} className={styles.whiteBackground}>
+          <li class="flex-item" key={props.slug} className={styles.whiteBackground}>
           <ArticleListItem value = {article}></ArticleListItem>
           </li>
         ))}

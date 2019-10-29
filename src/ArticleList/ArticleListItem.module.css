@@ -1,42 +1,36 @@
-.box{
-    display: inline-block;
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
 }
+
 .image{
     margin-top: 25px;
     margin-right: 20px;
-    margin-bottom: 100px;
     margin-left: 20px;
-    float: left;
+    width:400px;
+    height:170px;
 }
 .button{
-    margin-right: 10px;
-    margin-bottom: 20px;
-    float: right;
+    height:130px;
 }
 
 .title {
-    /* padding-top: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px; */
     color: firebrick;
-    font-size: 50px;
+    font-size: 35px;
+    width:350px;
+    height:150px;
 }
 .text{
-    /* margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px; */
-    font-size: 25px;
+    font-size: 23px;
+    width:350px;
+    height:280px;
 }
 .date {
-    /* margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px; */
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
+    width:350px;
+    height:100px;
 }
 .clear{
     clear: both;

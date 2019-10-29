@@ -6,7 +6,7 @@ import styles from "./ArticleListItem.module.css"
 const ArticleListItem = ({value}) => {
   return (
       <html>
-      <div>
+      <ul class = {styles.container}>
         <div className = {styles.image}>
           <ArticleImage url = {value.image} title = {value.title}></ArticleImage>
         </div>
@@ -19,7 +19,7 @@ const ArticleListItem = ({value}) => {
           <SlugButton slug = {value.slug} buttonText = {value.author}></SlugButton>
         </div>
         <div className = {styles.clear}></div>
-      </div>
+      </ul>
       </html>
   );
 };
