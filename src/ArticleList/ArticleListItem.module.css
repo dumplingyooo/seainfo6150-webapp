@@ -32,6 +32,77 @@
     width:350px;
     height:100px;
 }
+
+@media only screen and (max-width: 2560px) { 
+    /* For 4K */  
+    [class*="image"] {  
+        width: 70%;
+        height:70%;
+    }  
+    [class*="title"] {  
+        font-size: 70%;  
+        width: 70%;  
+    }  
+    [class*="text"] {  
+        font-size: 70%;  
+        width: 80%;  
+    }  
+    [class*="date"] {  
+        width: 30%;  
+        font-size: 70%;  
+    }  
+    [class*="container"] {  
+        width: 70%;  
+    }  
+}  
+
+
+@media only screen and (min-width: 768px) {  
+    /* For tablet */  
+    [class*="image"] {  
+        width: 70%;  
+    }  
+    [class*="title"] {  
+        font-size: 30px;  
+        width: 70%;  
+    }  
+    [class*="text"] {  
+        font-size: 18px;  
+        width: 80%;  
+    }  
+    [class*="date"] {  
+        width: 50%;  
+        font-size: 15px;  
+    }  
+    [class*="container"] {  
+        width: 100%;  
+    }  
+}  
+
+
+@media only screen and (min-width: 1024px) { 
+    /* For Laptop */  
+    [class*="image"] {  
+        width: 70%;  
+    }  
+    [class*="title"] {  
+        font-size: 40px;  
+        width: 70%;  
+    }  
+    [class*="text"] {  
+        font-size: 23px;  
+        width: 80%;  
+    }  
+    [class*="date"] {  
+        width: 50%;  
+        font-size: 19px;  
+    }  
+    [class*="container"] {  
+        width: 70%; 
+        height: 70%; 
+    }  
+}
+
 .clear{
     clear: both;
 }

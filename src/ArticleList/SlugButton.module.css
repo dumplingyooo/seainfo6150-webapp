@@ -10,3 +10,31 @@
     margin-right: 10px;
     border-radius: 20px;
 }
+@media only screen and (max-width: 2560px) { 
+    /* For 4K */   
+    [class*="button"] {
+        font-size: 70%;
+        width: 70%;  
+        height:70%;
+    }
+}  
+
+
+@media only screen and (min-width: 768px) {  
+    /* For tablet */  
+    [class*="button"] {
+        font-size: 70%;
+        width: 70%;  
+        height:70%;
+    }  
+}  
+
+
+@media only screen and (min-width: 1024px) { 
+    /* For Laptop */  
+    [class*="button"] {
+        font-size: 70%;
+        width: 70%;  
+        height:70%;
+    } 
+}
