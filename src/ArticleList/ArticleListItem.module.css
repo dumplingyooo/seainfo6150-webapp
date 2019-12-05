@@ -32,6 +32,9 @@
     width:350px;
     height:100px;
 }
+.clear{
+    clear: both;
+}
 
 @media only screen and (max-width: 2560px) { 
     /* For 4K */  
@@ -40,16 +43,22 @@
         height:70%;
     }  
     [class*="title"] {  
-        font-size: 70%;  
-        width: 70%;  
+        font-size: 120%;  
+        width: 70%; 
+        color:purple;
+        font-family: Courier New; 
     }  
     [class*="text"] {  
-        font-size: 70%;  
+        font-size: 120%;  
         width: 80%;  
+        color:green;
+        font-style: italic;
     }  
     [class*="date"] {  
         width: 30%;  
-        font-size: 70%;  
+        font-size: 120%;  
+        color:orange;
+        font-style: italic; 
     }  
     [class*="container"] {  
         width: 70%;  
@@ -63,16 +72,22 @@
         width: 70%;  
     }  
     [class*="title"] {  
-        font-size: 30px;  
-        width: 70%;  
+        font-size: 120%;  
+        width: 70%;
+        color:blue;
+        font-family: Courier New;
     }  
     [class*="text"] {  
-        font-size: 18px;  
-        width: 80%;  
+        font-size: 120%;  
+        width: 80%;
+        color:green;
+        font-weight: bold;   
     }  
     [class*="date"] {  
         width: 50%;  
-        font-size: 15px;  
+        font-size: 120%;
+        color:orange;
+        font-style: italic; 
     }  
     [class*="container"] {  
         width: 100%;  
@@ -86,23 +101,25 @@
         width: 70%;  
     }  
     [class*="title"] {  
-        font-size: 40px;  
-        width: 70%;  
+        font-size: 150%;  
+        width: 70%; 
+        color:gray;
+        font-family: Courier New; 
     }  
     [class*="text"] {  
-        font-size: 23px;  
+        font-size: 150%;  
         width: 80%;  
+        color:green;
+        font-style: italic;
     }  
     [class*="date"] {  
         width: 50%;  
-        font-size: 19px;  
+        font-size: 150%; 
+        color:orange;
+        font-style: italic;  
     }  
     [class*="container"] {  
         width: 70%; 
         height: 70%; 
     }  
-}
-
-.clear{
-    clear: both;
 }
